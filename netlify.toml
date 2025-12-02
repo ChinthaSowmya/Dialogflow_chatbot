@@ -1,9 +1,7 @@
 [build]
-  command = "npm run build"
-  publish = "build"
-  functions = "netlify/functions"
+ command='npm run build'
+ publish='build'
 
 [functions]
-  directory = "netlify/functions"
-  node_bundler = "esbuild"
-  external_node_modules = ["@google-cloud/dialogflow"]
+ directory='netlify/functions'
+ node_bundler='esbuild'
